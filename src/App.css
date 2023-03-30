@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@200&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0;
+  font-family: "Montserrat";
+  padding: 0;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6b8bb;
+}
+.description {
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 32px;
+  font-weight: bold;
+  color: #120a3d;
+  font-size: 25px;
+}
+.description-meru {
+  text-align: center;
+  background: linear-gradient(to right, white 20%, red 40%, red 60%, white 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s linear infinite;
+}
+.final-description-meru {
+  text-align: center;
+  background: linear-gradient(to left, pink 30%, blue 50%, red 70%, yellow 90%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s linear infinite;
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+.input-check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MuiCard-root {
+  border-radius: 10px !important;
+  box-shadow: 0.5px 1px 4px 1px rgba(20, 20, 20, 0.4) !important;
+}
+.MuiButton-root {
+  background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80") !important;
+}
